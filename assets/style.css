@@ -1,0 +1,30 @@
+:root
+{
+background-color: white;
+}
+
+
+button {
+    display: inline-block;
+    font-family: sans-serif;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    font-size: 15px;
+    padding: 20px;
+    width: 150px;
+    margin-top: 3px;
+    border-radius: 10px;
+    border: 3px double grey;
+  }
+
+  button:hover{
+      box-shadow: 4px 3px 6px rgb(227, 190, 190);
+  }
+  button:active{
+    background-color: purple;
+  }
+
+  #start{
+    float: center;
+  }

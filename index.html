@@ -1,0 +1,58 @@
+<!--Pseudo Code
+    When start button is clicked,
+    Display first question and,
+    Start timer
+
+    If answer is correct,
+    Display next question and,
+    Add 1 point to total
+
+    If answer is incorrect,
+    Display next question and,
+    Reduce time from timer
+
+    Questions and answers will be stored in their own object which are called by a single function
+    Start button clicked will be handled by eventlistener
+-->
+
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Module 4 Challenge</title>
+        <link rel="stylesheet" type="text/css" href="assets/style.css">
+        <script src="assets/script.js"></script>
+    </head>
+
+    <body>
+        <div class = container>
+            <div id="time">Time Left: 100 </div>
+            <div id="highScore">High Score: </div>
+           
+        <div id="startQuiz">
+            <h1>Coding Quiz Challenge</h1>
+            <button onclick="start()">Start Quiz</button>
+        </div>
+        
+        <div id="quiz">
+        <p></p>
+        <button id="buttonA" onclick="checkAnswer('a')"></button>
+        <button id="buttonB" onclick="checkAnswer('b')"></button>
+        <button id="buttonC" onclick="checkAnswer('c')"></button>
+        <button id="buttonD" onclick="checkAnswer('d')"></button>
+        </div>
+
+        <div id="gameOver">
+
+            <div id="finalScore"></div>
+            <div id="showScores">Score:</div>
+            <input type="text" size = "50" placeholder="Enter you initials" name="intials" id="userInitials"/>
+            <button id="submitScore">Submit Score</button>
+        </div>
+
+        <div id="endGameBtns">
+            <button id="playAgain" onclick="replayQuiz()">Play Again</button>
+            <button id="clearHighscore" onclick="clearScore()">Clear Scores</button>
+        </div>
+        </div>
+    </body>
+</html>
