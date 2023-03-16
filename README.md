@@ -11,9 +11,12 @@ questions and compare scores with other users.
 NA
 
 ## Links
-
+https://andrewgomoll.github.io/Module-4-Challenge/
 
 ## Screenshots
-
+"assets\displayScores.png"
+"assets\enterInitials.png"
+"assets\startPage.png"
+"assets\questions.png"
 
 ---
