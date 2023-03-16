@@ -6,7 +6,6 @@ background-color: white;
 
 button {
     display: inline-block;
-    font-family: sans-serif;
     background-color: blue;
     color: white;
     text-align: center;
@@ -16,6 +15,7 @@ button {
     margin-top: 3px;
     border-radius: 10px;
     border: 3px double grey;
+    max-height: 70px;
   }
 
   button:hover{
@@ -27,4 +27,8 @@ button {
 
   #start{
     float: center;
+  }
+
+  *{
+    font-family: Arial, Helvetica, sans-serif
   }
